@@ -1,0 +1,27 @@
+body {
+    overflow-x: hidden;
+}
+
+.tablet:hover {
+    background-color: rgb(218, 222, 215);
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.mobile:hover {
+    background-color: rgb(218, 222, 215);
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+button:hover {
+    background-color: rgb(115, 215, 39) !important;
+}
+
+@media screen and (max-width: 575px) {
+    /* * {
+        width: 500px;
+    } */
+}
